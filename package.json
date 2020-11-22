@@ -1,0 +1,26 @@
+{
+  "name": "dependency-injection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev app.ts",
+    "test": "mocha -r ts-node/register test/**/*.test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "ts-node-dev": "^1.0.0-pre.52"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^14.0.23",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
