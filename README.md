@@ -62,6 +62,8 @@ console.log(service.check()); // Should write "client says: hello world"
 1. Add unit tests
 2. Add high-level test using sample above
 3. Use lint
-4. Make minimal documentation contains
-1. overview of DI as concept (max 10 lines)
-2. edge cases if any
+4. Make minimal documentation contains:
+
+* overview of DI as concept (max 10 lines)
+
+* edge cases if any
